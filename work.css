@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    background: #333;
+    color: #fff;
+    height: 50px;
+}
+
+.header .logo h1 {
+    float: left;
+    margin-left: 10px;
+}
+
+.header .nav-links {
+    list-style: none;
+    float: right;
+   
+}
+
+.header .nav-links li {
+    display: inline;
+    margin: 10px;
+    margin-top: 10%;
+   
+    
+}
+.nav-links li:hover{
+    border-bottom: solid #f05454 5px;
+}
+.header .nav-links a {
+    color: #fff;
+    text-decoration: none;
+
+}
+.n{
+    background-color: #f05454;
+    height: 50px;
+   
+}
+.n2{
+    display: inline;
+}
+.h {
+    list-style: none;
+    float:left;
+   
+   
+}
+.h a{
+    color: #080808;
+}
+.h li {
+    display: inline;
+    margin: 10px;
+    margin-top: 10%;
+   
+}
+
+.section3{
+text-align: center;
+background-color: #f0f0f0;
+width: 100%;
+}
+
+
+
+.our_work{
+    background-color:  #f05454;
+    display: flex;
+    align-items: center;
+    margin: 5%;
+}
+.our_work img{
+    width: 100px;
+}
+.work{
+    flex: 1; 
+   
+}
+.work h2{
+    text-align: center;
+}
+
+
+.cards{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin-bottom: 5%;
+}
+.card{
+    align-items: center;
+}
+
+.cards2{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin-bottom: 5%;
+}
+
+
+.center{
+    text-align: center;
+    margin-left: 5%;
+}
+
+.cards img{
+    margin-left: 5%;
+
+}
+.cards2 img{
+    margin-left: 5%;
+}
+.footer {
+    background-color: #333;
+    padding: 20px 0;
+    text-align: center;
+   
+ 
+}
+
+.footer-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer-icons .icon img {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s ease;
+    border-radius: 50%;
+}
+
+.footer-icons .icon img:hover {
+    transform: scale(1.2); /* تكبير الأيقونة عند المرور بالماوس */
+}
